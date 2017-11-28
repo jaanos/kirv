@@ -1,6 +1,6 @@
 from math import ceil, log
 from random import randrange
-from euclidean import gcd
+from .euclidean import gcd
 
 def pollardP1(n, B = None, trace = False, **kargs):
     """

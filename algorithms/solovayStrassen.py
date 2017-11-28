@@ -1,5 +1,5 @@
 from random import randrange
-from jacobi import jacobi
+from .jacobi import jacobi
 
 def solovayStrassen(n, a = None, trace = False):
     """

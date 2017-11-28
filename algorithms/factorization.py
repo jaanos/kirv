@@ -1,4 +1,4 @@
-from pollard import pollardRho, pollardP1
+from .pollard import pollardRho, pollardP1
 
 def totalFactorization(n, methods = [pollardRho, pollardP1], **kargs):
     """
