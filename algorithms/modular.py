@@ -1,4 +1,16 @@
 from random import randrange
+from .euclidean import inverse
+
+def crt(s):
+    """
+    Solve the system given by x == v (mod k),
+    where (k, v) goes over all key-value pairs of the dictionary s.
+    """
+    x, n = 0, 1
+    for q, r in s.items():
+        x += n * ((r-x) * inverse(n, q) % q)
+        n *= q
+    return x
 
 def jacobi(m, n, trace = False):
     """

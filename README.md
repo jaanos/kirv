@@ -14,12 +14,17 @@ from algorithms import *
 ```
 Currently, the following functions are available:
 * `gcd` (from `euclidean.py`)
-* `jacobi` (from `jacobi.py`)
-* `solovayStrassen` (from `solovayStrassen.py`)
-* `millerRabin` (from `millerRabin.py`)
-* `pollardP1`(from `pollard.py`)
-* `pollardRho`(from `pollard.py`)
+* `inverse` (from `euclidean.py`)
+* `eea` (from `euclidean.py`)
+* `crt` (from `modular.py`)
+* `jacobi` (from `modular.py`)
+* `solovayStrassen` (from `primality.py`)
+* `millerRabin` (from `primality.py`)
+* `pollardP1`(from `factorization.py`)
+* `pollardRho`(from `factorization.py`)
 * `totalFactorization` (from `factorization.py`)
 * `factorizeByBase` (from `factorization.py`)
+* `babyStepGiantStep` (from `discreteLogarithm.py`)
+* `pohligHellman` (from `discreteLogarithm.py`)
 
 See sources for the documentation.
