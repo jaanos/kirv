@@ -1,5 +1,6 @@
 from random import randrange
 from .modular import jacobi
+from .util import descend
 
 def solovayStrassen(n, a = None, trace = False):
     """
@@ -20,7 +21,7 @@ def solovayStrassen(n, a = None, trace = False):
         return True
     if a is None:
         a = randrange(2, n-1)
-    x = jacobi(a, n)
+    x = jacobi(a, n, trace = descend(trace))
     if x == 0:
         if trace:
             print("(%d/n) = 0  => composite" % a)

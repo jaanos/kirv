@@ -2,6 +2,7 @@ from math import sqrt, ceil
 from .euclidean import inverse
 from .modular import crt
 from .factorization import totalFactorization
+from .util import descend
 
 def babyStepGiantStep(a, b, n, order = None, trace = False):
     """
@@ -38,14 +39,15 @@ def pohligHellman(a, b, p, trace = False):
     Perform the Pohlig-Hellman algorithm
     to find the discrete logarithm of b with basis a modulo a prime p.
     """
+    dtrace = descend(trace)
     n = p - 1
-    f = totalFactorization(n)
+    f = totalFactorization(n, trace = dtrace)
     ai = inverse(a, p)
     if trace:
         print("%d-1 = %s" % (p, ' * '.join("%d^%d" % (q, e)
                                            for q, e in f.items())))
         print("a^-1 = %d" % ai)
-    v, m = [], []
+    v = {}
     for q, e in f.items():
         if trace:
             print("prime power factor: %d^%d" % (q, e))
@@ -63,16 +65,16 @@ def pohligHellman(a, b, p, trace = False):
                 print("b_%d = (b_%d*c_%d)^(%d/%d^%d) = %d" %
                                                     (i, i-1, i, n, q, i+1, bp))
                 print("z = log_%d(%d) mod %d, order = %d" % (ap, bp, p, q))
-            k = (babyStepGiantStep(ap, bp, p, order = q) % q) * qp
+            k = (babyStepGiantStep(ap, bp, p, order = q,
+                                   trace = dtrace) % q) * qp
             x += k
             if trace:
                 print("k_%d = z*q^%d = %d" % (i, i, k))
             qp *= q
             nq //= q
-        v.append(x)
-        m.append(qp)
+        v[qp] = x
     if trace:
         print("CRT")
-        for q, r in zip(m, v):
+        for q, r in v.items():
             print("x = %d\t(mod %d)" % (r, q))
-    return crt(dict(zip(m, v)))
+    return crt(v)
