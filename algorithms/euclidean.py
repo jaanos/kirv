@@ -19,9 +19,9 @@ def inverse(a, n, strict = True):
     while a != 0:
         k = b // a
         b, a, x, y = a, b - k*a, y, x - k*y
-    if strict and b != 1:
+    if strict and b not in [-1, 1]:
         raise ValueError("input not invertible")
-    return x % n
+    return (b*x) % n
 
 def eea(m, n):
     """
