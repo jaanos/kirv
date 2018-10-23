@@ -2,6 +2,11 @@
 
 This repository contains materials for the Cryptography and computer security course at the Faculty of Computer Science and Informatics, University of Ljubljana.
 
+## Notebooks
+
+Currently, the following Jupyter notebooks for Sage are available:
+* [`LFSR.ipynb`](LFSR.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=LFSR.ipynb)
+
 ## `algorithms`
 
 To use the algorithms in Python, make sure that the root of the repository is visible to Python. Then you may import them with
