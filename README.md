@@ -4,8 +4,11 @@ This repository contains materials for the Cryptography and computer security co
 
 ## Notebooks
 
-Currently, the following Jupyter notebooks for Sage are available:
-* [`LFSR.ipynb`](LFSR.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=LFSR.ipynb)
+Currently, the following Jupyter [notebooks](notebooks/) for Sage are available:
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/LFSR.ipynb) [`LFSR.ipynb`](notebooks/LFSR.ipynb): LFSR in Sage
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Coppersmith.ipynb) [`Coppersmith.ipynb`](notebooks/Coppersmith.ipynb): Coppersmith's attack on a small exponent
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](notebooks/CommonModulus.ipynb): Common modulus attack
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/RSA-ECB.ipynb) [`RSA-ECB.ipynb`](notebooks/RSA-ECB.ipynb): RSA in ECB mode
 
 ## `algorithms`
 
