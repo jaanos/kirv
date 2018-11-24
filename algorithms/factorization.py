@@ -22,7 +22,7 @@ def pollardP1(n, B = None, trace = False, **kargs):
         assert B > 1
     a = 2
     for i in range(2, B+1):
-        a = pow(a, i, n)
+        a = int(pow(a, i, n))
         if trace:
             print("a%d = 2 ^ %d! mod n = %d" % (i, i, a))
         d = gcd(a-1, n)
