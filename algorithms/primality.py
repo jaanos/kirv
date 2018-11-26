@@ -52,9 +52,9 @@ def millerRabin(n, a = None, trace = False):
         m //= 2
         k += 1
     if trace:
-        print("n = m * 2^k = %d * 2^%d" % (m, k))
+        print("n-1 = m * 2^k = %d * 2^%d" % (m, k))
     if a is None:
-        a = randrange(2, n)
+        a = randrange(2, n-1)
     b = pow(a, m, n)
     if trace:
         print("b = %d ^ m mod n = %d" % (a, b))
