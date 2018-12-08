@@ -10,6 +10,9 @@ Currently, the following Jupyter [notebooks](notebooks/) for Sage are available:
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](notebooks/CommonModulus.ipynb): Common modulus attack
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/RSA-ECB.ipynb) [`RSA-ECB.ipynb`](notebooks/RSA-ECB.ipynb): RSA in ECB mode
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Factorization.ipynb) [`Factorization.ipynb`](notebooks/Factorization.ipynb): Integer factorization
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/BabyStepGiantStep.ipynb) [`BabyStepGiantStep.ipynb`](notebooks/BabyStepGiantStep.ipynb): Shanks's baby-step/giant-step algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](notebooks/PohligHellman.ipynb): The Pohlig-Hellman algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](notebooks/IndexCalculus.ipynb): The Index calculus algorithm
 
 ## `algorithms`
 

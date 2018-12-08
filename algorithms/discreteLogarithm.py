@@ -6,7 +6,7 @@ from .util import descend
 
 def babyStepGiantStep(a, b, n, order = None, trace = False):
     """
-    Perform Shanks' Baby step-Giant step algorithm
+    Perform Shanks's Baby step-Giant step algorithm
     to find the discrete logarithm of b with basis a modulo n.
 
     If order is given, it is assumed to be the order of a.
