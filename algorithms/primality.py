@@ -1,8 +1,8 @@
 from random import randrange
 from .modular import jacobi
-from .util import descend
+from .util import descend, xxrange
 
-def solovayStrassen(n, a = None, trace = False):
+def solovayStrassen(n, a = None, trace = False, **kargs):
     """
     Perform the Solovay-Strassen primality testing algorithm.
 
@@ -37,7 +37,7 @@ def solovayStrassen(n, a = None, trace = False):
             print("x == y (mod n)  => probable prime")
     return res
 
-def millerRabin(n, a = None, trace = False):
+def millerRabin(n, a = None, trace = False, **kargs):
     """
     Perform the Miller-Rabin primality testing algorithm.
 
@@ -62,7 +62,7 @@ def millerRabin(n, a = None, trace = False):
         if trace:
             print("b mod n = 1  => probable prime")
         return False
-    for i in range(k):
+    for i in xxrange(k):
         if (b+1) % n == 0:
             if trace:
                 print("b ^ (2^%d) == -1 (mod n)  => probable prime" % i)

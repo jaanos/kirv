@@ -1,6 +1,8 @@
 from math import ceil, log
 from random import randrange
 from .euclidean import gcd
+from .primality import solovayStrassen, millerRabin
+from .util import xxrange
 
 def pollardP1(n, B = None, trace = False, **kargs):
     """
@@ -21,7 +23,7 @@ def pollardP1(n, B = None, trace = False, **kargs):
     else:
         assert B > 1
     a = 2
-    for i in range(2, B+1):
+    for i in xxrange(2, B+1):
         a = int(pow(a, i, n))
         if trace:
             print("a%d = 2 ^ %d! mod n = %d" % (i, i, a))
@@ -70,15 +72,37 @@ def pollardRho(n, f = None, a = None, x = None, trace = False, **kargs):
         return p
     return None
 
-def totalFactorization(n, methods = [pollardRho, pollardP1], **kargs):
+def totalFactorization(n, methods = [pollardRho, pollardP1],
+                       primality = [millerRabin, solovayStrassen],
+                       repeat = 10, **kargs):
     """
     Attempt to find a total factorization of n using the available methods.
     """
     assert n > 1
     factors = {}
+    trace = kargs.get("trace", False)
+    if n <= 3:
+        return {n: 1}
+    if trace:
+        print "checking primality for %d" % n
+    for i in xxrange(repeat):
+        for f in primality:
+            if f(n, **kargs):
+                if trace:
+                    print "determined that %d is composite, trying to factor" % n
+                break
+        else:
+            continue
+        break
+    else:
+        if trace:
+            print "determined that %d is probably prime, not trying to factor" % n
+        return {n: 1}
     for f in methods:
         m = f(n, **kargs)
         if m is not None:
+            if trace:
+                print "found factorization %d = %d * %d" % (n, m, n//m)
             f1 = totalFactorization(m, methods = methods, **kargs)
             f2 = totalFactorization(n//m, methods = methods, **kargs)
             for p, e in f2.items():
@@ -89,18 +113,34 @@ def totalFactorization(n, methods = [pollardRho, pollardP1], **kargs):
             return f1
     return {n: 1}
 
-def factorizeByBase(n, base):
+def factorizeByBase(n, base, m = None):
     """
     Find a factorization of n with factors from base,
     if one exists.
+
+    If the modulus m is given, the base is allowed to contain -1.
+    All other elements must be positive.
     """
     assert n > 0
+    if m is not None and -1 in base:
+        idx = base.index(-1)
+        base = base[:idx] + base[idx+1:]
+    else:
+        idx = None
     assert all(p > 0 for p in base)
     factors = [0 for i in base]
+    x = n
     for i, p in enumerate(base):
-        while n % p == 0:
-            n //= p
+        while x % p == 0:
+            x //= p
             factors[i] += 1
-    if n != 1:
-        return False
+    if x != 1:
+        if idx is None:
+            return False
+        factors = factorizeByBase(-n % m, base)
+        if factors is False:
+            return False
+        factors.insert(idx, 1)
+    elif idx is not None:
+        factors.insert(idx, 0)
     return factors

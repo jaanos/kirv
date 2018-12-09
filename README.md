@@ -38,5 +38,12 @@ Currently, the following functions are available:
 * `factorizeByBase` (from `factorization.py`)
 * `babyStepGiantStep` (from `discreteLogarithm.py`)
 * `pohligHellman` (from `discreteLogarithm.py`)
+* `logarithmTable` (from `discreteLogarithm.py`)
+* `indexCalculus` (from `discreteLogarithm.py`)
+* `points` (from `ellipticCurves.py`)
+* `pointSum` (from `ellipticCurves.py`)
+* `pointMultiply` (from `ellipticCurves.py`)
 
 See sources for the documentation.
+
+Note that `logarithmTable` requires Sage and will therefore not work with plain Python. `indexCalculus` calls `logarithmTable` if a table of logarithms is not specified. If it is given, the function can be used with plain Python.

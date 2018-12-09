@@ -1,17 +1,18 @@
 from .euclidean import inverse
+from .util import xxrange
 
 def points((a, b, p)):
     """
     Find all points on an elliptic curve y^2 = x^3 + ax + b
     over a field with p elements with characteristic greater than 3.
     """
-    sqrt = {x: [] for x in range(p)}
+    sqrt = {x: [] for x in xxrange(p)}
     sqrt[0].append(0)
-    for x in range(1, (p+1)//2):
+    for x in xxrange(1, (p+1)//2):
         sqrt[x*x % p].append(x)
         sqrt[x*x % p].append(p-x)
     return [()] + sum([[(x, y) for y in sqrt[(x**3 + a*x + b) % p]]
-                       for x in range(p)], [])
+                       for x in xxrange(p)], [])
 
 def pointSum(P, Q, (a, b, p)):
     """

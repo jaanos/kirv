@@ -14,7 +14,7 @@ from .euclidean import gcd, inverse, eea
 from .modular import crt, jacobi
 from .primality import solovayStrassen, millerRabin
 from .factorization import pollardP1, pollardRho, totalFactorization, factorizeByBase
-from .discreteLogarithm import babyStepGiantStep, pohligHellman
+from .discreteLogarithm import babyStepGiantStep, pohligHellman, logarithmTable, indexCalculus
 from .ellipticCurves import points, pointSum, pointMultiply
 
 __all__ = ['gcd',
@@ -30,6 +30,8 @@ __all__ = ['gcd',
            'factorizeByBase',
            'babyStepGiantStep',
            'pohligHellman',
+           'logarithmTable',
+           'indexCalculus'
            'points',
            'pointSum',
            'pointMultiply',

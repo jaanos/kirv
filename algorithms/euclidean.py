@@ -17,7 +17,7 @@ def inverse(a, n, strict = True):
     """
     b, x, y = n, 0, 1
     while a != 0:
-        k = b // a
+        k = int(b // a)
         b, a, x, y = a, b - k*a, y, x - k*y
     if strict and b not in [-1, 1]:
         raise ValueError("input not invertible")
