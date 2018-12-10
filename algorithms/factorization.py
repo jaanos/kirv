@@ -84,25 +84,25 @@ def totalFactorization(n, methods = [pollardRho, pollardP1],
     if n <= 3:
         return {n: 1}
     if trace:
-        print "checking primality for %d" % n
+        print("checking primality for %d" % n)
     for i in xxrange(repeat):
         for f in primality:
             if f(n, **kargs):
                 if trace:
-                    print "determined that %d is composite, trying to factor" % n
+                    print("determined that %d is composite, trying to factor" % n)
                 break
         else:
             continue
         break
     else:
         if trace:
-            print "determined that %d is probably prime, not trying to factor" % n
+            print("determined that %d is probably prime, not trying to factor" % n)
         return {n: 1}
     for f in methods:
         m = f(n, **kargs)
         if m is not None:
             if trace:
-                print "found factorization %d = %d * %d" % (n, m, n//m)
+                print("found factorization %d = %d * %d" % (n, m, n//m))
             f1 = totalFactorization(m, methods = methods, **kargs)
             f2 = totalFactorization(n//m, methods = methods, **kargs)
             for p, e in f2.items():

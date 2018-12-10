@@ -31,7 +31,7 @@ __all__ = ['gcd',
            'babyStepGiantStep',
            'pohligHellman',
            'logarithmTable',
-           'indexCalculus'
+           'indexCalculus',
            'points',
            'pointSum',
            'pointMultiply',
