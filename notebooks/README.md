@@ -21,3 +21,7 @@
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/BabyStepGiantStep.ipynb) [`BabyStepGiantStep.ipynb`](BabyStepGiantStep.ipynb): Shanks's baby-step/giant-step algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](PohligHellman.ipynb): The Pohlig-Hellman algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](IndexCalculus.ipynb): The Index calculus algorithm
+
+### Tutorial 17.12.2018 - Digital signatures
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/ReblockingProblem.ipynb) [`ReblockingProblem.ipynb`](ReblockingProblem.ipynb): The reblocking problem for RSA

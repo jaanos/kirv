@@ -13,6 +13,7 @@ Currently, the following Jupyter [notebooks](notebooks/) for Sage are available:
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/BabyStepGiantStep.ipynb) [`BabyStepGiantStep.ipynb`](notebooks/BabyStepGiantStep.ipynb): Shanks's baby-step/giant-step algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](notebooks/PohligHellman.ipynb): The Pohlig-Hellman algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](notebooks/IndexCalculus.ipynb): The Index calculus algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/ReblockingProblem.ipynb) [`ReblockingProblem.ipynb`](notebooks/ReblockingProblem.ipynb): The reblocking problem for RSA
 
 ## `algorithms`
 
