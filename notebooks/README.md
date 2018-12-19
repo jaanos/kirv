@@ -25,3 +25,4 @@
 ### Tutorial 17.12.2018 - Digital signatures
 
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/ReblockingProblem.ipynb) [`ReblockingProblem.ipynb`](ReblockingProblem.ipynb): The reblocking problem for RSA
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/GroupSignature.ipynb) [`GroupSignature.ipynb`](GroupSignature.ipynb): The ACJT2000 group signature scheme
