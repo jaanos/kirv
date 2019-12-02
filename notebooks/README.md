@@ -12,6 +12,10 @@
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](CommonModulus.ipynb): Common modulus attack
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/RSA-ECB.ipynb) [`RSA-ECB.ipynb`](RSA-ECB.ipynb): RSA in ECB mode
 
+### Tutorial 27.11./2.12.2019 - Integer factorization
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Factorization.ipynb) [`Factorization.ipynb`](Factorization.ipynb): Integer factorization
+
 ## Past years
 
 * [2018/19](archive.md#201819)
