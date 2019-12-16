@@ -16,6 +16,13 @@
 
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Factorization.ipynb) [`Factorization.ipynb`](Factorization.ipynb): Integer factorization
 
+### Tutorial 11./16.12.2019 - Discrete logarithm problem
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/BabyStepGiantStep.ipynb) [`BabyStepGiantStep.ipynb`](BabyStepGiantStep.ipynb): Shanks's baby-step/giant-step algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](PohligHellman.ipynb): The Pohlig-Hellman algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](IndexCalculus.ipynb): The Index calculus algorithm
+
+
 ## Past years
 
 * [2018/19](archive.md#201819)
