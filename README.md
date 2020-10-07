@@ -2,6 +2,10 @@
 
 This repository contains materials for the Cryptography and Computer Security course at the Faculty of Computer Science and Informatics, University of Ljubljana.
 
+## [Notes from tutorials](notes)
+
+* Online tutorials from [2020/21](notes/2020-21)
+
 ## Notebooks
 
 Currently, the following Jupyter [notebooks](notebooks/) for Sage are available:
