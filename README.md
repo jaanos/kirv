@@ -1,6 +1,6 @@
-# Cryptography and computer security
+# Cryptography and Computer Security
 
-This repository contains materials for the Cryptography and computer security course at the Faculty of Computer Science and Informatics, University of Ljubljana.
+This repository contains materials for the Cryptography and Computer Security course at the Faculty of Computer Science and Informatics, University of Ljubljana.
 
 ## Notebooks
 
