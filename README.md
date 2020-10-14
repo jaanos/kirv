@@ -8,7 +8,8 @@ This repository contains materials for the Cryptography and Computer Security co
 
 ## Notebooks
 
-Currently, the following Jupyter [notebooks](notebooks/) for Sage are available:
+Currently, the following Jupyter [notebooks](notebooks/) for Python/Sage are available:
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/VigenereCipher.ipynb) [`VigenereCipher.ipynb`](notebooks/VigenereCipher.ipynb): Vigenère cipher in Python
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/LFSR.ipynb) [`LFSR.ipynb`](notebooks/LFSR.ipynb): LFSR in Sage
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Coppersmith.ipynb) [`Coppersmith.ipynb`](notebooks/Coppersmith.ipynb): Coppersmith's attack on a small exponent
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](notebooks/CommonModulus.ipynb): Common modulus attack
