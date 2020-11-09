@@ -5,3 +5,4 @@
 * [`2020-10-20.md`](2020-10-20.md) - algorithms with numbers, groups
 * [`2020-10-27.md`](2020-10-27.md) - LFSR, Shannon theory
 * [`2020-11-03.md`](2020-11-03.md) - block ciphers
+* [`2020-11-10.md`](2020-11-10.md) - RSA, Chinese remainder theorem
