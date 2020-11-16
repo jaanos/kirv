@@ -6,3 +6,4 @@
 * [`2020-10-27.md`](2020-10-27.md) - LFSR, Shannon theory
 * [`2020-11-03.md`](2020-11-03.md) - block ciphers
 * [`2020-11-10.md`](2020-11-10.md) - RSA, Chinese remainder theorem
+* [`2020-11-17.md`](2020-11-17.md) - attacks on RSA
