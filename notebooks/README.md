@@ -10,6 +10,12 @@
 
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/LFSR.ipynb) [`LFSR.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/LFSR.ipynb): LFSR in Sage
 
+### Tutorial 17./18.11.2020 - Attacks on RSA
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Coppersmith.ipynb) [`Coppersmith.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/Coppersmith.ipynb): Coppersmith's attack on a small exponent
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/CommonModulus.ipynb): Common modulus attack
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/RSA-ECB.ipynb) [`RSA-ECB.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/RSA-ECB.ipynb): RSA in ECB mode
+
 ## Past years
 
 * [2019/20](archive.md#201920)
