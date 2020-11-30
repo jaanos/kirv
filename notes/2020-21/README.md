@@ -8,3 +8,4 @@
 * [`2020-11-10.md`](2020-11-10.md) - RSA, Chinese remainder theorem
 * [`2020-11-17.md`](2020-11-17.md) - attacks on RSA
 * [`2020-11-24.md`](2020-11-24.md) - Jacobi symbols
+* [`2020-12-01.md`](2020-12-01.md) - primality testing and factorization
