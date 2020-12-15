@@ -10,3 +10,4 @@
 * [`2020-11-24.md`](2020-11-24.md) - Jacobi symbols
 * [`2020-12-01.md`](2020-12-01.md) - primality testing and factorization
 * [`2020-12-08.md`](2020-12-08.md) - ElGamal cryptosystem
+* [`2020-12-15.md`](2020-12-15.md) - Discrete logarithm problem
