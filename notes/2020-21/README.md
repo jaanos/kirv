@@ -13,3 +13,4 @@
 * [`2020-12-15.md`](2020-12-15.md) - Discrete logarithm problem
 * [`2020-12-22.md`](2020-12-22.md) - Digital signatures
 * [`2021-01-05.md`](2021-01-05.md) - Hash functions
+* [`2021-01-12.md`](2021-01-12.md) - Elliptic curves
