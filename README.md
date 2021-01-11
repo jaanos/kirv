@@ -20,6 +20,7 @@ Currently, the following Jupyter [notebooks](notebooks/) for Python/Sage are ava
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/PohligHellman.ipynb): The Pohlig-Hellman algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/IndexCalculus.ipynb): The Index calculus algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/ReblockingProblem.ipynb) [`ReblockingProblem.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/ReblockingProblem.ipynb): The reblocking problem for RSA
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/EllipticCurves.ipynb) [`EllipticCurves.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/EllipticCurves.ipynb): Elliptic curves
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/GroupSignature.ipynb) [`GroupSignature.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/GroupSignature.ipynb): The ACJT2000 group signature scheme
 
 ## `algorithms`
