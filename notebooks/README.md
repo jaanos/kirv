@@ -16,6 +16,10 @@
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/CommonModulus.ipynb) [`CommonModulus.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/CommonModulus.ipynb): Common modulus attack
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/RSA-ECB.ipynb) [`RSA-ECB.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/RSA-ECB.ipynb): RSA in ECB mode
 
+### Tutorial 26.11.2021 - Jacobi symbols
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Jacobi.ipynb) [`Jacobi.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/Jacobi.ipynb): Computing Jacobi symbols
+
 ## Past years
 
 * [2020/21](archive.md#202021)
