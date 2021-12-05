@@ -20,6 +20,10 @@
 
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Jacobi.ipynb) [`Jacobi.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/Jacobi.ipynb): Computing Jacobi symbols
 
+### Tutorial 3.12.2021 - Integer factorization
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Factorization.ipynb) [`Factorization.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/Factorization.ipynb): Integer factorization
+
 ## Past years
 
 * [2020/21](archive.md#202021)
