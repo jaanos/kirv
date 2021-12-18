@@ -24,6 +24,12 @@
 
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/Factorization.ipynb) [`Factorization.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/Factorization.ipynb): Integer factorization
 
+### Tutorial 17.12.2021 - Discrete logarithm problem
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/BabyStepGiantStep.ipynb) [`BabyStepGiantStep.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/BabyStepGiantStep.ipynb): Shanks's baby-step/giant-step algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/PohligHellman.ipynb): The Pohlig-Hellman algorithm
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/IndexCalculus.ipynb): The Index calculus algorithm
+
 ## Past years
 
 * [2020/21](archive.md#202021)
