@@ -30,6 +30,10 @@
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/PohligHellman.ipynb) [`PohligHellman.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/PohligHellman.ipynb): The Pohlig-Hellman algorithm
 * [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/IndexCalculus.ipynb) [`IndexCalculus.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/IndexCalculus.ipynb): The Index calculus algorithm
 
+### Tutorial 14.1.2022 - Elliptic curves
+
+* [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/kirv/master?filepath=notebooks/EllipticCurves.ipynb) [`EllipticCurves.ipynb`](https://nbviewer.jupyter.org/github/jaanos/kirv/blob/master/notebooks/EllipticCurves.ipynb): Elliptic curves
+
 ## Past years
 
 * [2020/21](archive.md#202021)
