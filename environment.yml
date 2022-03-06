@@ -1,0 +1,11 @@
+name: sage-drg
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - sage
+  - pip
+  - pip:
+    - RISE==5.6.1
