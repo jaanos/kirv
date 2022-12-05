@@ -123,7 +123,7 @@ def indexCalculus(a, b, p, base, table = None, trace = False):
     """
     if table is None:
         if isinstance(base, dict):
-            base, table = zip(*table.items())
+            base, table = zip(*base.items())
         else:
             table = logarithmTable(a, p, base, trace = descend(trace))
     while True:
